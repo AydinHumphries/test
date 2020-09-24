@@ -1,0 +1,6 @@
+#N canvas 820 215 450 300 12;
+#N canvas 0 50 450 300 subpatch_a 0;
+#X restore 106 85 pd subpatch_a;
+#X msg 13 177 \; pd-subpatch_a editmode 1 \, mouse 10 10 0 0 \, cut
+\, editmode 0 \;;
+#X msg 15 114 \; pd-subpatch_a obj 10 10 bng \;;
